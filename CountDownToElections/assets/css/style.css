@@ -10,8 +10,9 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  font-variant-caps: petite-caps;
   color: #fff;
-  background: url("../img/bg.jpg") top center no-repeat;
+  background: url("/Gallery/IEBCBack.jpg") top center no-repeat; /*Background image*/
   background-size: cover;
   position: relative;
 }
@@ -31,12 +32,12 @@ body::before {
 }
 
 a {
-  color: #ff0000;
+  color: lightgreen;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff3333;
+  color: green;
   text-decoration: none;
 }
 
@@ -58,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff0000;
+  background: forestgreen;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -92,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: lightgreen;
 }
 #header h2 {
   color: #eee;
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #ff0000;
+  border-top: 5px solid lightgreen; /*colour for the countdown to border*/
 }
 #header .countdown div h3 {
   font-weight: 700;
@@ -228,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.8);
+  color: lightgreen; /*color for the social media icons*/
   line-height: 1;
   padding-top: 14px;
   margin: 0 10px;
@@ -236,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #header .social-links a:hover {
-  color: #fff;
+  color: forestgreen; /*color for the social media icons background*/
 }
 
 /*--------------------------------------------------------------
@@ -307,7 +308,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #fff;
+  color: black;  /*Color of the icons*/
   float: left;
   width: 44px;
   height: 44px;
@@ -350,11 +351,11 @@ section {
   margin-right: 10px;
 }
 .contact .info .social-links a:hover {
-  background: #ff0000;
+  background: lightgreen;
   color: #fff;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #ff0000;
+  background: lightgreen;
   color: #fff;
 }
 .contact .php-email-form {
@@ -368,7 +369,7 @@ section {
 }
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: lightgreen;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -376,7 +377,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: lightgreen;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -428,14 +429,14 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #ff0000;
+  background: darkgreen; /*send message button back ground colour*/
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: black;
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #ff3333;
+  background: lightgreen; /*send message hover color*/
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -474,5 +475,5 @@ section {
   color: #fff;
 }
 #footer .credits a {
-  color: #ff3333;
+  color: lightgreen;
 }
